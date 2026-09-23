@@ -46,7 +46,7 @@ export default function App() {
             <Route path="/services" element={<Services onOpenConsultation={() => setConsultationOpen(true)} />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/projects/:slug" element={<ProjectDetails onOpenConsultation={() => setConsultationOpen(true)} />} />
-            <Route path="/process" element={<Process onOpenConsultation={() => setConsultationOpen(true)} />} />
+            {/* <Route path="/process" element={<Process onOpenConsultation={() => setConsultationOpen(true)} />} />   */}
             <Route path="/why-raydan" element={<WhyRaydan onOpenConsultation={() => setConsultationOpen(true)} />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Home onOpenConsultation={() => setConsultationOpen(true)} />} />

@@ -9,11 +9,11 @@ export const brandData = {
   introText: "At RAYDAN CONSTRUCTIONS, we bring together thoughtful architecture, precise engineering and skilled craftsmanship to create homes designed around the way you live.",
   aboutQuote: "RAYDAN CONSTRUCTIONS brings architecture, engineering and craftsmanship together to create homes that are thoughtful, durable and made for the future.",
   contact: {
-    phone: "+91 98490 12345",
-    phoneDisplay: "+91 98490 12345",
+    phone: "+91 98853 00138",
+    phoneDisplay: "+91 98853 00138",
     email: "contact@raydanconstructions.com",
     consultationEmail: "projects@raydanconstructions.com",
-    address: "Plot 42, Jubilee Enclave, Hitec City, Hyderabad, Telangana 500081",
+    address: "Plot No- 76 Citizens colony Indresham Patancheru 502319 Hyderabad Telangana",
     workingHours: "Monday – Saturday: 9:30 AM – 6:30 PM",
     citiesServed: ["Hyderabad", "Bengaluru", "Pune", "Chennai"]
   },

@@ -15,8 +15,8 @@ export default function IntroSection() {
           <div className="lg:col-span-6 relative">
             <div className="relative aspect-[4/5] sm:aspect-[1/1] lg:aspect-[4/5] w-full overflow-hidden shadow-2xl group">
               <img
-                src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80"
-                alt="Contemporary architectural home exterior"
+                src="/projects/the-horizon-villa.webp"
+                alt="RAYDAN contemporary architectural residence"
                 className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />

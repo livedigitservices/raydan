@@ -2,379 +2,501 @@ export const projectsData = [
   {
     id: "the-courtyard-house",
     slug: "the-courtyard-house",
-    title: "THE COURTYARD HOUSE",
+    title: "THE COURTYARD PERGOLA VILLA",
     location: "Jubilee Hills, Hyderabad",
     category: "LUXURY HOMES",
     filterCategory: "LUXURY HOMES",
-    type: "Luxury Residence",
-    area: "6,500 Sq. Ft.",
-    builtArea: "6,500 Sq. Ft.",
-    plotArea: "800 Sq. Yds.",
+    tags: ["LUXURY HOMES", "VILLAS", "ALL"],
+    type: "Bespoke Luxury Villa",
+    area: "6,800 Sq. Ft.",
+    builtArea: "6,800 Sq. Ft.",
+    plotArea: "850 Sq. Yds.",
     year: "2024",
     duration: "14 Months",
-    coverImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=80",
+    coverImage: "/projects/the-courtyard-house.webp",
     images: [
+      "/projects/the-courtyard-house.webp",
+      "/projects/originals/project_05.jpg",
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80"
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80"
     ],
     video: "https://assets.mixkit.co/videos/preview/mixkit-modern-apartment-interior-design-39908-large.mp4",
-    description: "A private sanctuary designed around a central open-to-sky courtyard, blending climate-responsive vernacular Indian architectural sensibilities with contemporary engineering rigor.",
-    overview: "Built for a multi-generational family, The Courtyard House celebrates the relationship between natural light, cross-ventilation, and private landscaped greens. The central courtyard acts as a thermal buffer, lowering indoor ambient temperatures by 4°C naturally while maintaining visual connectivity across living spaces.",
-    concept: "The core design concept revolves around the traditional Indian 'Aangan' re-imagined through brutalist concrete frames, slim aluminium double-glazed apertures, and monolithic local basalt stone masonry.",
+    description: "A striking two-story contemporary luxury villa featuring an open-to-sky pergola terrace, glass balconies, warm wooden soffits, and a monolithic stone boundary wall.",
+    overview: "Engineered with precision, this luxury residence seamlessly integrates indoor and outdoor living. The architectural elevation is highlighted by deep timber pergola canopies, cantilevered glass balustrades, and custom architectural lighting embedded within exterior soffits.",
+    concept: "Linear geometry harmonized with warm organic textures — timber, structural glass, and natural cut stone create a calm and dignified private haven.",
     architecture: {
-      style: "Tropical Brutalism & Modern Indian",
-      structure: "Post-tensioned RCC slab with cantilevered overhangs",
-      facade: "Exposed wire-cut terracotta louvers and bush-hammered granite",
-      glazing: "Triple-track thermal-break DGU glass systems"
+      style: "Contemporary Minimalist Villa",
+      structure: "Post-tensioned RCC slab with cantilevered upper terrace",
+      facade: "Honed natural stone cladding with thermo-treated wood soffits",
+      glazing: "DGU acoustic glass with slim charcoal thermal frames"
     },
     materials: [
-      "Board-formed Architectural Concrete",
-      "Sadahalli Grey & Basalt Natural Stone",
-      "FSC-Certified Plantation Teak",
-      "Low-E High Acoustic Glass",
-      "Brushed Gunmetal Architectural Hardware"
+      "Natural Sandstone Boundary Cladding",
+      "Thermo-Treated Timber Soffits",
+      "Structural Glass Balustrades",
+      "Architectural Profile LED Insets",
+      "Matte Gunmetal Door Hardware"
     ],
     journey: [
-      { phase: "Excavation & Shoring", detail: "Deep foundation anchored to Deccan granite bedrock with micro-pile reinforcement." },
-      { phase: "Structural Framing", detail: "Column-free living pavilions achieved through 9-meter cantilever post-tensioned beams." },
-      { phase: "Envelope & Louvers", detail: "Precision fabrication of kinetic external louvers for daylight optimization." },
-      { phase: "Finishes & Handover", detail: "Seamless micro-concrete flooring and integrated home automation commissioning." }
+      { phase: "Excavation & Shoring", detail: "Bedrock excavation with reinforced perimeter retaining walls." },
+      { phase: "Cantilever Slab Pour", detail: "Post-tensioned upper terrace slab enabling a seamless column-free pergola zone." },
+      { phase: "Pergola & Glass Erection", detail: "Precision mounting of structural timber pergola beams and heavy-duty glass railings." },
+      { phase: "Finishing & Handover", detail: "450-point quality audit covering architectural illumination and acoustic seals." }
     ],
     testimonial: {
-      quote: "RAYDAN's engineering discipline is extraordinary. What looked impossible on architectural 3D renders was built down to the millimeter. Our courtyard is the soul of our daily life.",
+      quote: "RAYDAN's execution is astonishing. What was rendered in 3D looks even more magnificent in reality. The terrace pergola is our family's favorite space.",
       author: "Dr. Vikram & Sunita Rao",
-      designation: "Homeowners, Hyderabad"
+      designation: "Homeowners, Jubilee Hills"
     }
   },
   {
     id: "the-horizon-villa",
     slug: "the-horizon-villa",
-    title: "THE HORIZON VILLA",
-    location: "Gandipet, Hyderabad",
+    title: "THE SLATE HORIZON VILLA",
+    location: "Kokapet, Hyderabad",
     category: "VILLAS",
     filterCategory: "VILLAS",
-    type: "Modern Villa",
-    area: "8,200 Sq. Ft.",
-    builtArea: "8,200 Sq. Ft.",
-    plotArea: "1,200 Sq. Yds.",
+    tags: ["VILLAS", "RESIDENCES", "ALL"],
+    type: "Contemporary Villa",
+    area: "7,500 Sq. Ft.",
+    builtArea: "7,500 Sq. Ft.",
+    plotArea: "950 Sq. Yds.",
     year: "2023",
-    duration: "16 Months",
-    coverImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1800&q=80",
+    duration: "15 Months",
+    coverImage: "/projects/the-horizon-villa.webp",
     images: [
+      "/projects/the-horizon-villa.webp",
+      "/projects/originals/project_01.jpg",
       "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1600607687644-c7171b42498b?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1600573472591-ee6c563aaec9?auto=format&fit=crop&w=1600&q=80"
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80"
     ],
     video: "https://assets.mixkit.co/videos/preview/mixkit-curved-living-room-with-large-windows-41121-large.mp4",
-    description: "Perched along panoramic lake views, The Horizon Villa utilizes sweeping cantilevers and floor-to-ceiling glass pavilions that erase boundaries between nature and interior volumes.",
-    overview: "The Horizon Villa captures horizontal lines echoing the lake's water plane. An infinity edge pool wraps around the lower entertaining deck, forming an acoustic barrier and creating a serene microclimate.",
-    concept: "Horizontal floating masses grounded by a heavy dry-clad stone spine that anchors structural staircases and utility cores.",
+    description: "A bold two-story modern residence defined by vertical charcoal architectural louvers, a natural stone feature column, cantilevered terrace, and tinted glass balconies.",
+    overview: "Designed for climate-responsiveness in the Deccan plateau, The Slate Horizon Villa balances open glazed facades with passive solar shading provided by engineered vertical louver screens.",
+    concept: "Tactile natural stone meets clean industrial slate louvers, crafting an imposing yet refined presence.",
     architecture: {
-      style: "Contemporary Minimalist Cantilever",
-      structure: "Composite steel & reinforced concrete hybrid frames",
-      facade: "Zinc standing-seam cladding and travertine slab facades",
-      glazing: "Schüco motorized panoramic sliding doors"
+      style: "Modern Slate & Glass",
+      structure: "Reinforced concrete frame with structural cantilever canopies",
+      facade: "Charcoal powder-coated aluminum louvers & stacked stone veneer",
+      glazing: "Tinted toughened solar-reflective double glazing"
     },
     materials: [
-      "Navona Italian Travertine",
-      "Electro-plated Titanium Zinc Paneling",
-      "Burmese Teak Decking",
-      "Structural Steel Cantilever Ribs"
+      "Vertical Architectural Louvers",
+      "Dry-Stacked Grey Granite Veneer",
+      "Smoked Glass Railing Panels",
+      "Porcelain Large-Format Tiles",
+      "Concealed Rainwater Downspouts"
     ],
     journey: [
-      { phase: "Soil & Slope Stabilization", detail: "Retaining walls and engineered soil nailing along the lakeside incline." },
-      { phase: "Steel Cantilever Erection", detail: "Precision crane hoisting of 14m steel box girders for upper sky lounge." },
-      { phase: "Glass Wall Engineering", detail: "Custom pressure-equalized panoramic glass systems resisting 150 km/h wind loads." },
-      { phase: "Final Handover", detail: "Defect-free inspection checklist verified across 450 technical checkpoints." }
+      { phase: "Substructure & Raft", detail: "Engineered raft foundation designed to resist expansive clay soil pressures." },
+      { phase: "RCC Superstructure", detail: "Precision formwork casting sharp geometric edges and cantilevered balcony slabs." },
+      { phase: "Louver Screen Alignment", detail: "Laser-aligned vertical louver framing for sun control and privacy." },
+      { phase: "Quality Certification", detail: "Rigorous thermal imaging and acoustic seal testing before final client handover." }
     ],
     testimonial: {
-      quote: "The seamless integration of indoor and outdoor space is world-class. RAYDAN delivered our dream turnkey home exactly on schedule.",
-      author: "Rajeev Chandrashekhar",
-      designation: "Tech Entrepreneur"
+      quote: "The clean lines and vertical louvers make our home standout in the neighborhood. RAYDAN's attention to detail was exceptional throughout.",
+      author: "Rajeev & Deepa Chandrashekhar",
+      designation: "Tech Executives, Kokapet"
     }
   },
   {
     id: "the-oak-residence",
     slug: "the-oak-residence",
-    title: "THE OAK RESIDENCE",
-    location: "Sadashivanagar, Bengaluru",
-    category: "RESIDENCES",
-    filterCategory: "RESIDENCES",
-    type: "Contemporary Residence",
-    area: "5,400 Sq. Ft.",
-    builtArea: "5,400 Sq. Ft.",
-    plotArea: "650 Sq. Yds.",
+    title: "THE STILT COUNTRYSIDE ESTATE",
+    location: "Shamshabad, Hyderabad",
+    category: "VILLAS",
+    filterCategory: "VILLAS",
+    tags: ["VILLAS", "MODERN HOMES", "ALL"],
+    type: "Elevated Countryside Villa",
+    area: "6,200 Sq. Ft.",
+    builtArea: "6,200 Sq. Ft.",
+    plotArea: "1,500 Sq. Yds.",
     year: "2024",
     duration: "13 Months",
-    coverImage: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1800&q=80",
+    coverImage: "/projects/the-oak-residence.webp",
     images: [
+      "/projects/the-oak-residence.webp",
+      "/projects/originals/project_06.jpg",
       "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=80"
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1600&q=80"
     ],
     video: null,
-    description: "An urban home characterized by warm white-oak woodwork, geometric concrete volumes, and landscaped light-wells bringing daylight deep into the interior floor plates.",
-    overview: "Situated in Bengaluru's leafy heritage district, this residence preserves the memory of mature canopy trees on site. The house weaves around an ancient rain tree, incorporating double-height reading galleries and an acoustic private studio.",
-    concept: "Tactile warmth meets restrained architectural discipline. Natural oak, fluted glass, and honed Kota stone create an atmosphere of meditative calm.",
+    description: "An elevated modern countryside retreat perched gracefully on structural concrete stilts, overlooking landscaped lawns and open panoramic horizon vistas.",
+    overview: "By raising the primary living floor above the natural ground plane on cylindrical reinforced concrete stilts, this residence achieves panoramic 360-degree views, enhanced natural breeze capture, and a shaded outdoor pavilion below.",
+    concept: "Lightness above the earth — modern stilt architecture that treads lightly on the natural contours while framing expansive greenery.",
     architecture: {
-      style: "Warm Modernism",
-      structure: "Flat plate RCC slab system without drop beams",
-      facade: "Vertical timber screens paired with white lime-wash render",
-      glazing: "Acoustic laminated Low-E glazing units"
+      style: "Elevated Pavilion Modernism",
+      structure: "Heavy-duty RCC cylindrical stilt columns with transfer slab",
+      facade: "Off-white mineral plaster with glass corner reveals",
+      glazing: "Floor-to-ceiling panoramic sliding glass systems"
     },
     materials: [
-      "Sustainably Harvested White Oak",
-      "Honed Grey Kota Stone Slabs",
-      "Breathable Mineral Lime Plasters",
-      "Cast Iron Accent Railings"
+      "High-Strength Self-Compacting Concrete",
+      "Weatherproof Exterior Lime Plasters",
+      "Tempered Clear Low-E Glass",
+      "Outdoor Teak Decking",
+      "Natural Basalt Landscape Paving"
     ],
     journey: [
-      { phase: "Tree Protection & Raft", detail: "Engineered isolated footings protecting root networks of the mature rain tree." },
-      { phase: "Flat Plate Casting", detail: "Laser-leveled formwork enabling smooth soffits without dropped beams." },
-      { phase: "Joinery Craftsmanship", detail: "In-house joinery master craftsmen fitted custom oak paneling and hidden pivots." },
-      { phase: "Commissioning", detail: "Integrated smart lighting scenes and dual-stage air filtration system." }
+      { phase: "Topographic Analysis", detail: "Contour mapping and deep foundation piles engineered for stilt load distribution." },
+      { phase: "Transfer Slab Casting", detail: "Continuous concrete pour with specialized vibrating screeds for flawless under-soffits." },
+      { phase: "Suspended Veranda Framing", detail: "Installation of wrap-around perimeter decking with embedded drainage channels." },
+      { phase: "Commissioning", detail: "Automated perimeter lighting and landscape irrigation integration." }
     ],
     testimonial: {
-      quote: "RAYDAN's respect for nature and craftsmanship was evident from day one. The acoustic privacy and tactile timber details make our home an oasis in the city.",
-      author: "Pooja & Arjun Varma",
-      designation: "Architectural Curators"
+      quote: "Living on the elevated floor surrounded by open greenery gives us a feeling of complete peace. RAYDAN built our retreat flawlessly.",
+      author: "Arun & Meera Sundaram",
+      designation: "Landscape Consultants"
     }
   },
   {
     id: "the-terrace-house",
     slug: "the-terrace-house",
-    title: "THE TERRACE HOUSE",
-    location: "Koregaon Park, Pune",
-    category: "MODERN HOMES",
-    filterCategory: "MODERN HOMES",
-    type: "Modern Family Home",
-    area: "4,800 Sq. Ft.",
-    builtArea: "4,800 Sq. Ft.",
-    plotArea: "550 Sq. Yds.",
+    title: "THE CONTEMPORARY TERRACE APARTMENTS",
+    location: "Hitec City, Hyderabad",
+    category: "RESIDENCES",
+    filterCategory: "RESIDENCES",
+    tags: ["RESIDENCES", "MODERN HOMES", "ALL"],
+    type: "Boutique Multi-Family Residence",
+    area: "8,900 Sq. Ft.",
+    builtArea: "8,900 Sq. Ft.",
+    plotArea: "600 Sq. Yds.",
     year: "2023",
-    duration: "12 Months",
-    coverImage: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=80",
+    duration: "16 Months",
+    coverImage: "/projects/the-terrace-house.webp",
     images: [
+      "/projects/the-terrace-house.webp",
+      "/projects/originals/project_08.jpg",
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?auto=format&fit=crop&w=1600&q=80"
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=80"
     ],
     video: null,
-    description: "Stepped green terraces stepping up over three levels, creating individual private garden escapes for each bedroom and living tier.",
-    overview: "Built for active outdoor enthusiasts, The Terrace House features cascading rooftop gardens with native xeriscape plantings and automated drip irrigation, dramatically cutting heat gain.",
-    concept: "A vertical garden residence where every habitable room opens onto private outdoor turf, timber pergolas, and shaded sitting corners.",
+    description: "A four-story boutique residential building featuring stepped white cantilevered balconies, vertical timber screening louvers, and a landscaped penthouse terrace.",
+    overview: "A showcase of high-density modern residential architecture, this multi-tier building offers each level a private outdoor terrace with integrated acoustic buffers and solar shading.",
+    concept: "Layered urban living with rhythmically arranged balconies and natural wood screens providing privacy without blocking city views.",
     architecture: {
-      style: "Biophilic Tiered Modernism",
-      structure: "Monolithic shear-wall and column hybrid framework",
-      facade: "Perforated corten steel screens and exposed exposed brickwork",
-      glazing: "Slimline thermal-break sliding frames"
+      style: "Contemporary Urban Tiered",
+      structure: "Shear wall and column RCC framework",
+      facade: "Crisp white exterior acrylic render with warm wood louvers",
+      glazing: "Black powder-coated thermal-break aluminum windows"
     },
     materials: [
-      "Weathering Corten Steel",
-      "Handmade Wire-Cut Terracotta Bricks",
-      "Thermo-Treated Ash Wood Pergolas",
-      "Micro-Top Quartz Decking"
+      "Engineered Composite Timber Slats",
+      "High-Reflectance Exterior Coatings",
+      "Acoustic Laminated Double Glazing",
+      "Stainless Steel Hidden Fasteners",
+      "Vitrified Non-Slip Terrace Tiles"
     ],
     journey: [
-      { phase: "Substructure & Tanking", detail: "Triple-layer elastomeric waterproofing applied to all terrace planter slabs." },
-      { phase: "Brick Masonry & Screening", detail: "Precision bond patterns creating thermal shading cavities along west facade." },
-      { phase: "Landscape Integration", detail: "Installation of lightweight engineered planting media and subsurface drainage cells." },
-      { phase: "Handover", detail: "Comprehensive operations manual and warranty documentation provided." }
+      { phase: "Basement Shoring", detail: "Deep secant pile shoring protecting adjacent urban structures during excavation." },
+      { phase: "Monolithic Framing", detail: "Fast-track mivan-style aluminium formwork for razor-sharp slab edges." },
+      { phase: "Facade Detailing", detail: "Fabrication and anchor-testing of vertical privacy louvers across all 4 levels." },
+      { phase: "Final Inspection", detail: "Complete acoustic and waterproofing sign-off across all terrace levels." }
     ],
     testimonial: {
-      quote: "Not a single drop of leakage through any terrace in two monsoons. RAYDAN's technical waterproofing and structural engineering are unmatched.",
-      author: "Aditya Deshmukh",
-      designation: "Industrialist"
+      quote: "Each floor feels like a luxurious private sanctuary. RAYDAN's multi-level construction discipline is second to none.",
+      author: "Aditya & Priya Deshmukh",
+      designation: "Developers & Residents"
     }
   },
   {
     id: "the-glass-pavilion",
     slug: "the-glass-pavilion",
-    title: "THE GLASS PAVILION",
-    location: "Financial District, Hyderabad",
+    title: "THE GRAND NEOCLASSICAL RESIDENCE",
+    location: "Banjara Hills, Hyderabad",
     category: "LUXURY HOMES",
     filterCategory: "LUXURY HOMES",
-    type: "Luxury Residence",
-    area: "7,100 Sq. Ft.",
-    builtArea: "7,100 Sq. Ft.",
-    plotArea: "900 Sq. Yds.",
+    tags: ["LUXURY HOMES", "RESIDENCES", "ALL"],
+    type: "Palatial Neoclassical Estate",
+    area: "12,800 Sq. Ft.",
+    builtArea: "12,800 Sq. Ft.",
+    plotArea: "1,200 Sq. Yds.",
     year: "2024",
-    duration: "15 Months",
-    coverImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1800&q=80",
+    duration: "18 Months",
+    coverImage: "/projects/the-glass-pavilion.webp",
     images: [
+      "/projects/the-glass-pavilion.webp",
+      "/projects/originals/project_11.jpg",
       "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80"
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80"
     ],
     video: null,
-    description: "An architectural tour de force featuring 6-meter-high double-glazed glass curtain walls, suspended bridge corridors, and a sunken Zen reflection pool.",
-    overview: "The Glass Pavilion showcases structural transparency. Using ultra-slender steel stanchions and point-fixed spider glazing, the living pavilion floats effortlessly above manicured water gardens.",
-    concept: "Weightlessness, transparency, and geometric equilibrium.",
+    description: "An imposing five-story neoclassical architectural marvel featuring triangular pediments, fluted Romanesque columns, ornamental balustrades, and a grand entrance colonnade.",
+    overview: "Evoking timeless European classical symmetry, this grand residence stands as a monumental landmark. Detailed classical mouldings, grand pediments, and arched fenestration are realized using advanced lightweight GRC (Glass Reinforced Concrete) elements engineered for zero maintenance.",
+    concept: "Classical symmetry and aristocratic grace re-engineered with 21st-century durability and climate-resilient composite materials.",
     architecture: {
-      style: "Structural Glass & Minimalist Steel",
-      structure: "AESS (Architecturally Exposed Structural Steel) frame",
-      facade: "Low-iron double glazed structural glass walls",
-      glazing: "6-meter seamless structural glass units"
+      style: "Neoclassical Revival",
+      structure: "Heavy RCC framed structure with engineered GRC ornamental facades",
+      facade: "Pristine white mineral silicone paint over precision GRC mouldings",
+      glazing: "Arched and rectangular double-hung acoustic windows"
     },
     materials: [
-      "Clear Low-Iron Float Glass",
-      "Statutario Marble Flooring",
-      "Charcoal Anodized Architectural Aluminum",
-      "Black Granite Water Walls"
+      "Glass Reinforced Concrete (GRC) Pediments & Cornices",
+      "Imported White Carrara Marble",
+      "Fluted Tuscan & Ionic Columns",
+      "Custom Cast Aluminum Ornamental Railings",
+      "High-Performance Thermal Glazing"
     ],
     journey: [
-      { phase: "Precision Steel Fabrication", detail: "AESS framing welded with hidden joints and ultrasonic tested for integrity." },
-      { phase: "Spider Glazing Mounts", detail: "Vacuum-lift crane installation of 400kg tempered glass panels." },
-      { phase: "Reflective Water Engineering", detail: "Recirculating water filtration systems built flush with indoor stone paving." },
-      { phase: "Acoustic Tuning", detail: "Perforated acoustic micro-ceilings ensuring zero echo across open glass halls." }
+      { phase: "Structural Pile Framing", detail: "Heavy pile foundation engineered to carry 5 stories with high-load safety margins." },
+      { phase: "GRC Moulding Fabrication", detail: "Computer-milled negative moulds casting intricate classical pediments." },
+      { phase: "Colonnade Erection", detail: "Laser-aligned vertical column installation with concealed seismic tie-backs." },
+      { phase: "Handover Ceremony", detail: "Client inspection completed with formal architectural heritage certification." }
     ],
     testimonial: {
-      quote: "Living here feels like living in an international architectural sculpture. RAYDAN's execution of structural steel and glass is world-class.",
-      author: "Kiran & Shalini Reddy",
-      designation: "Managing Directors"
+      quote: "RAYDAN gave our family a true generational estate. The classical grandeur and immaculate craftsmanship surpass our highest expectations.",
+      author: "Nawabzada Mir Osman Ali",
+      designation: "Industrialist & Estate Owner"
     }
   },
   {
     id: "the-monolith-residence",
     slug: "the-monolith-residence",
-    title: "THE MONOLITH RESIDENCE",
-    location: "Indiranagar, Bengaluru",
+    title: "THE URBAN CHEVRON RESIDENCE",
+    location: "Gachibowli, Hyderabad",
     category: "MODERN HOMES",
     filterCategory: "MODERN HOMES",
-    type: "Modern Home",
-    area: "5,900 Sq. Ft.",
-    builtArea: "5,900 Sq. Ft.",
-    plotArea: "700 Sq. Yds.",
-    year: "2022",
-    duration: "14 Months",
-    coverImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1800&q=80",
+    tags: ["MODERN HOMES", "RESIDENCES", "ALL"],
+    type: "Contemporary Multi-Story Home",
+    area: "5,400 Sq. Ft.",
+    builtArea: "5,400 Sq. Ft.",
+    plotArea: "450 Sq. Yds.",
+    year: "2023",
+    duration: "13 Months",
+    coverImage: "/projects/the-monolith-residence.webp",
     images: [
+      "/projects/the-monolith-residence.webp",
+      "/projects/originals/project_10.jpg",
       "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
       "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1600&q=80"
     ],
     video: null,
-    description: "Sculptural board-formed concrete volumes punctuated by deep reveal windows and bronze sun-shades, creating timeless geometric presence.",
-    overview: "Monolith Residence celebrates the honesty of raw materials. Heavy geometric concrete cantilevers frame views toward internal courtyard gardens while blocking harsh afternoon sun.",
-    concept: "Monolithic presence, spatial depth, and dramatic interplay of chiaroscuro lighting.",
+    description: "A bold multi-level townhouse featuring textured charcoal brick tiles, striking yellow chevron accents, tinted blue balcony glazing, and vertical shade louvers.",
+    overview: "A study in dynamic geometric elevations, this residence brings architectural vibrancy to urban density. The charcoal brick facade is punctuated by sharp canary yellow chevron bands and deep-tinted glass corners that optimize interior privacy.",
+    concept: "Expressive urban geometry — textured masonry contrasted with vibrant geometric accents and reflective blue fenestration.",
     architecture: {
-      style: "Brutalist Modern",
-      structure: "Self-compacting fair-faced reinforced concrete",
-      facade: "Pine wood board-formed exposed architectural concrete",
-      glazing: "Deep recessed triple-pane aluminum windows"
+      style: "Geometric Contemporary",
+      structure: "Reinforced concrete framed structure",
+      facade: "Charcoal exposed wire-cut split tiles with polyurethane accent bands",
+      glazing: "Ocean-blue tinted tempered solar safety glass"
     },
     materials: [
-      "Raw Architectural Concrete",
-      "Aged Architectural Bronze",
-      "Honed Charcoal Slate",
-      "Smoked Walnut Woodwork"
+      "Textured Charcoal Split Wall Tiles",
+      "Sun-Resistant Exterior Enamels",
+      "Blue Reflective Low-E Glass",
+      "Anodized Dark Bronze Louver Profiles",
+      "Vitrified Granite Paving Slabs"
     ],
     journey: [
-      { phase: "Formwork Engineering", detail: "Custom Oregon pine formwork boards milled with wire brushing for distinct grain texture." },
-      { phase: "Concrete Pour Monitoring", detail: "Monitored batching plant temperature and slump test for uniform gray tones." },
-      { phase: "Bronze Detailing", detail: "Custom fabricated deep bronze window casings and pivot entrance door." },
-      { phase: "Handover", detail: "Post-curing protective silane impregnations for lifelong dust and stain resistance." }
+      { phase: "Structural Framework", detail: "RCC column and beam network cast with tight tolerance for facade cladding." },
+      { phase: "Facade Tiling & Accents", detail: "Precision tile layout with elastomeric adhesive resistant to thermal expansion." },
+      { phase: "Glazing & Louvers", detail: "Installation of custom tinted glass corner assemblies with water-tight gaskets." },
+      { phase: "Turnkey Handover", detail: "Comprehensive commissioning of lighting, electrical panels, and security systems." }
     ],
     testimonial: {
-      quote: "Achieving flawless exposed concrete in India is notoriously difficult. RAYDAN pulled it off with unbelievable precision.",
+      quote: "The bold geometry and quality of the facade tiling make this home a head-turner. RAYDAN's execution speed and honesty were refreshing.",
       author: "Naveen Krishna",
-      designation: "Design Director"
+      designation: "Tech Architect, Gachibowli"
     }
   },
   {
     id: "the-stone-timber-villa",
     slug: "the-stone-timber-villa",
-    title: "THE STONE & TIMBER VILLA",
-    location: "ECR, Chennai",
-    category: "VILLAS",
-    filterCategory: "VILLAS",
-    type: "Luxury Villa",
-    area: "6,800 Sq. Ft.",
-    builtArea: "6,800 Sq. Ft.",
-    plotArea: "1,000 Sq. Yds.",
-    year: "2023",
+    title: "THE TERRACOTTA OCULUS VILLA",
+    location: "Financial District, Hyderabad",
+    category: "LUXURY HOMES",
+    filterCategory: "LUXURY HOMES",
+    tags: ["LUXURY HOMES", "VILLAS", "ALL"],
+    type: "Modern Luxury Villa",
+    area: "6,600 Sq. Ft.",
+    builtArea: "6,600 Sq. Ft.",
+    plotArea: "750 Sq. Yds.",
+    year: "2024",
     duration: "15 Months",
-    coverImage: "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1800&q=80",
+    coverImage: "/projects/the-stone-timber-villa.webp",
     images: [
+      "/projects/the-stone-timber-villa.webp",
+      "/projects/originals/project_04.jpg",
       "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=80",
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80"
     ],
     video: null,
-    description: "A coastal luxury villa engineered with marine-grade structural elements, reclaimed teak timber, and local dry-stacked sandstone walls.",
-    overview: "Located 500 meters from the ocean, the villa incorporates high-durability epoxy-coated rebars and marine-grade anti-corrosive fixtures while exuding warm coastal luxury.",
-    concept: "Coastal resilience married with artisanal timber joinery and sea-breeze natural ventilation channels.",
+    description: "A three-story earth-toned modern residence distinguished by a signature circular porthole window, warm terracotta finishes, glass balconies, and rooftop pergolas.",
+    overview: "Combining sculptural forms with warm natural tones, this residence features a striking circular oculus window that illuminates the interior double-height atrium, flanked by terracotta-paneled volumes and generous open terraces.",
+    concept: "Harmonizing geometric curiosities with warm earth tones — circular openings framing sky views within a crisp rectangular envelope.",
     architecture: {
-      style: "Tropical Contemporary Coastal",
-      structure: "Marine-grade sulfate-resistant cement RCC structure",
-      facade: "Dry-stacked Dholpur sandstone and reclaimed teak slats",
-      glazing: "Cyclone-rated hurricane resistance double glazing"
+      style: "Contemporary Earth-Tone Modern",
+      structure: "Post-tensioned RCC floor slabs with custom circular formwork",
+      facade: "Terracotta ceramic rainscreen panels & sandstone finish",
+      glazing: "Custom circular double-glazed oculus & slim sliding glass doors"
     },
     materials: [
-      "Dholpur Natural Sandstone",
-      "Reclaimed Colonial Teak",
-      "Marine-Grade 316 Stainless Steel Hardware",
-      "Polished Lime & Plaster Walls"
+      "Natural Terracotta Ceramic Facing",
+      "Sandstone Textured Plaster",
+      "Structural Tempered Glass Railings",
+      "Extruded Aluminum Pergola Beams",
+      "Solid Teak Main Pivot Door"
     ],
     journey: [
-      { phase: "Saline Ground Protection", detail: "Sub-grade damp proofing and sulfate-resisting Portland cement foundations." },
-      { phase: "Timber Crafting", detail: "Kiln-seasoning of 80-year-old reclaimed teak rafters for roof pavilions." },
-      { phase: "Stone Cladding", detail: "Mechanical pin-fixing of sandstone blocks allowing ventilation behind the stone skin." },
-      { phase: "Handover", detail: "Salt-spray testing validation on all outdoor metallic components." }
+      { phase: "Foundation & Basement", detail: "Reinforced retaining walls with integral crystalline waterproofing." },
+      { phase: "Oculus Formwork Casting", detail: "CNC-routed curved formwork ensuring millimeter-accurate circular aperture." },
+      { phase: "Terracotta Cladding", detail: "Dry-hung ventilated facade system providing continuous acoustic and thermal insulation." },
+      { phase: "Handover", detail: "Full structural audit and 10-year comprehensive warranty handover." }
     ],
     testimonial: {
-      quote: "Building near the coast is risky, but RAYDAN's technical knowledge of marine-grade construction gave us total peace of mind.",
-      author: "Shyam Sundaram",
-      designation: "Senior Advocate"
+      quote: "The circular oculus window is an absolute work of art. The quality of finishing throughout the house is world-class.",
+      author: "Shyam & Preeti Sundaram",
+      designation: "Senior Legal Counsel"
     }
   },
   {
     id: "the-urban-sanctuary",
     slug: "the-urban-sanctuary",
-    title: "THE URBAN SANCTUARY",
-    location: "Banjara Hills, Hyderabad",
-    category: "RENOVATION",
-    filterCategory: "RENOVATION",
-    type: "Renovation & Structural Retrofit",
-    area: "4,200 Sq. Ft.",
-    builtArea: "4,200 Sq. Ft.",
+    title: "THE EMERALD MOSAIC RESIDENCE",
+    location: "Madhapur, Hyderabad",
+    category: "MODERN HOMES",
+    filterCategory: "MODERN HOMES",
+    tags: ["MODERN HOMES", "RESIDENCES", "RENOVATION", "ALL"],
+    type: "Contemporary Urban Home",
+    area: "5,100 Sq. Ft.",
+    builtArea: "5,100 Sq. Ft.",
     plotArea: "500 Sq. Yds.",
     year: "2024",
-    duration: "9 Months",
-    coverImage: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1800&q=80",
+    duration: "12 Months",
+    coverImage: "/projects/the-urban-sanctuary.webp",
     images: [
+      "/projects/the-urban-sanctuary.webp",
+      "/projects/originals/project_09.jpg",
       "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80",
       "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1600&q=80"
     ],
     video: null,
-    description: "Complete transformation of a 30-year-old traditional residence into an ultra-modern, energy-efficient luxury home through strategic structural retrofitting.",
-    overview: "By removing non-load-bearing walls and introducing steel flitch beams, RAYDAN created vast open-concept living zones and inserted a double-height skylight spine.",
-    concept: "Adaptive re-use and carbon-conscious structural rejuvenation.",
+    description: "A three-story contemporary residence finished in soothing olive and cream tones, highlighted by a central vertical stone mosaic feature pillar and cantilevered balconies.",
+    overview: "A sophisticated urban residence defined by clean vertical hierarchy. The central mosaic feature spine anchors the structure visually, connecting the covered car portico to the rooftop terrace lounge.",
+    concept: "Vertical rhythm and natural materials — combining subtle olive earth hues with fine-grained stone mosaics and stainless steel railings.",
     architecture: {
-      style: "Adaptive Modern Rejuvenation",
-      structure: "Carbon-fiber reinforced polymer (CFRP) structural retrofit",
-      facade: "Ventilated porcelain rainscreen facade with acoustic louvers",
-      glazing: "Slim-profile thermally broken sliding frames"
+      style: "Urban Organic Contemporary",
+      structure: "RCC framed structure with cantilevered canopy portico",
+      facade: "Textured natural stone mosaic pillar with breathable mineral coatings",
+      glazing: "Tinted thermal-break sliding windows with stainless balustrades"
     },
     materials: [
-      "Large-Format Sintered Stone Slabs",
-      "Engineered European Oak Flooring",
-      "CFRP Structural Strengthening Wraps",
-      "Architectural Shadow-Line Metal Reveals"
+      "Natural Stone Tesserae Mosaic",
+      "Weather-Shield Acrylic Exterior Finishes",
+      "Grade-304 Stainless Steel Balustrades",
+      "Toughened Clear Glass Insets",
+      "Basalt Stone Portico Flooring"
     ],
     journey: [
-      { phase: "NDT Structural Audit", detail: "Rebound hammer and ultrasonic pulse velocity testing of existing RCC framework." },
-      { phase: "Micro-Jacketing & Strengthening", detail: "Column retrofitting using steel jackets and high-strength non-shrink grouting." },
-      { phase: "Spatial Redefinition", detail: "Removal of compartmentalized walls to forge light-filled 50-foot open living pavilions." },
-      { phase: "Handover", detail: "Zero-defect delivery with updated structural warranty certificates." }
+      { phase: "Framing & Masonry", detail: "Solid fly-ash block masonry engineered for superior thermal dampening." },
+      { phase: "Central Spine Masonry", detail: "Artisanal hand-laid stone mosaic cladding along the 3-story vertical pillar." },
+      { phase: "Balcony & Railing Fix", detail: "Precision-anchored stainless steel and glass railings tested for lateral loads." },
+      { phase: "Quality Delivery", detail: "Interior and exterior inspection checklist certified with zero defects." }
     ],
     testimonial: {
-      quote: "They took an outdated 1990s house and turned it into an international luxury masterpiece. The structural skill RAYDAN demonstrated is breathtaking.",
+      quote: "RAYDAN's team kept us updated every single week. The stone mosaic pillar and the build quality exceeded all our hopes.",
       author: "Ananya & Rajesh Kothari",
-      designation: "Private Wealth Advisors"
+      designation: "Investment Consultants"
+    }
+  },
+  {
+    id: "the-pastel-residence",
+    slug: "the-pastel-residence",
+    title: "THE MEDITERRANEAN ARCHED VILLA",
+    location: "Tellapur, Hyderabad",
+    category: "VILLAS",
+    filterCategory: "VILLAS",
+    tags: ["VILLAS", "LUXURY HOMES", "ALL"],
+    type: "Mediterranean Luxury Villa",
+    area: "4,600 Sq. Ft.",
+    builtArea: "4,600 Sq. Ft.",
+    plotArea: "600 Sq. Yds.",
+    year: "2023",
+    duration: "14 Months",
+    coverImage: "/projects/the-pastel-residence.webp",
+    images: [
+      "/projects/the-pastel-residence.webp",
+      "/projects/originals/project_02.jpg",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=80"
+    ],
+    video: null,
+    description: "A delightful two-story Mediterranean-inspired villa featuring gentle sea-green pastel tones, sweeping arched verandas, clay tile roof details, and palm planters.",
+    overview: "Warmth, romance, and craftsmanship define this villa. Symmetrical arched porticos and verandas invite gentle breezes while providing shaded outdoor seating, complemented by terracotta barrel roof tiles and ornamental balusters.",
+    concept: "Coastal Mediterranean charm reinterpreted for modern suburban living with shaded arcades and natural clay roofing.",
+    architecture: {
+      style: "Mediterranean Arched Villa",
+      structure: "RCC framed structure with integrated curved masonry arches",
+      facade: "Textured sea-green & cream lime wash with terracotta ridge tiles",
+      glazing: "White multi-pane casement windows with arched transoms"
+    },
+    materials: [
+      "Natural Clay Terracotta Roof Tiles",
+      "Hand-Cast Classical Balusters",
+      "Breathable Mineral Lime Plasters",
+      "Honed Travertine Veranda Paving",
+      "Wrought Iron Entrance Lanterns"
+    ],
+    journey: [
+      { phase: "Substructure & Damp Proofing", detail: "Extensive moisture-barrier tanking protecting ground-floor arcades." },
+      { phase: "Masonry Arch Crafting", detail: "Custom wooden centering templates built for uniform arch radii." },
+      { phase: "Roof Tile Interlocking", detail: "Mechanical fixing of high-durability clay tiles over waterproofed RCC slope." },
+      { phase: "Handover", detail: "Final aesthetic inspection and formal keys handover ceremony." }
+    ],
+    testimonial: {
+      quote: "Our home feels like a tranquil Mediterranean villa in the middle of Hyderabad. The craftsmanship of the arches is flawless.",
+      author: "Farhan & Sofia Merchant",
+      designation: "Entrepreneurs"
+    }
+  },
+  {
+    id: "the-classic-tiered-residence",
+    slug: "the-classic-tiered-residence",
+    title: "THE TIERED AZURE RESIDENCE",
+    location: "Manikonda, Hyderabad",
+    category: "RESIDENCES",
+    filterCategory: "RESIDENCES",
+    tags: ["RESIDENCES", "MODERN HOMES", "RENOVATION", "ALL"],
+    type: "Tiered Contemporary Residence",
+    area: "5,800 Sq. Ft.",
+    builtArea: "5,800 Sq. Ft.",
+    plotArea: "550 Sq. Yds.",
+    year: "2024",
+    duration: "13 Months",
+    coverImage: "/projects/the-classic-tiered-residence.webp",
+    images: [
+      "/projects/the-classic-tiered-residence.webp",
+      "/projects/originals/project_07.jpg",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?auto=format&fit=crop&w=1600&q=80"
+    ],
+    video: null,
+    description: "A three-story tiered family home articulated in warm sunlight-yellow and slate-blue architectural panels, stepped verandas, arched entry portico, and rooftop deck.",
+    overview: "Engineered for an active multi-generational family, this residence features cascading front balconies and stepped rooflines that optimize air circulation and private terrace access for each floor.",
+    concept: "Stepped verticality — playful interplay of vibrant yellow surfaces, slate-blue accent walls, and graceful archway entrances.",
+    architecture: {
+      style: "Tiered Transitional Contemporary",
+      structure: "Reinforced concrete frame with stepped slab overhangs",
+      facade: "Multi-tone weather-proof elastomer finishes with molded parapets",
+      glazing: "Anodized aluminum sliding frames with tinted safety glass"
+    },
+    materials: [
+      "Elastomeric Architectural Exterior Coatings",
+      "Curved Molded Masonry Parapets",
+      "Polished Kota & Teak Wood Finishes",
+      "Tempered Balcony Glass Panels",
+      "Outdoor Anti-Skid Terracotta Paving"
+    ],
+    journey: [
+      { phase: "Excavation & Footings", detail: "Individual isolated RCC footings anchored into Deccan murrum strata." },
+      { phase: "Stepped Floor Slabs", detail: "Staged formwork pours creating tiered balcony projections." },
+      { phase: "Color & Seal Application", detail: "Four-coat exterior primer and weatherproof top-coat application." },
+      { phase: "Client Handover", detail: "Turnkey inspection with certified documentation and MEP warranty cards." }
+    ],
+    testimonial: {
+      quote: "RAYDAN's team delivered right on schedule with zero hidden costs. The stepped terraces give everyone in the family their own private space.",
+      author: "K. R. V. Prasad & Family",
+      designation: "Chartered Accountants"
     }
   }
 ];

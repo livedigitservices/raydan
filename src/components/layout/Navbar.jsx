@@ -37,7 +37,7 @@ export default function Navbar({ onOpenConsultation }) {
     { name: 'About', path: '/about' },
     { name: 'Services', path: '/services' },
     { name: 'Projects', path: '/projects' },
-    { name: 'Process', path: '/process' },
+    // { name: 'Process', path: '/process' },
     { name: 'Why Raydan', path: '/why-raydan' },
     { name: 'Contact', path: '/contact' }
   ];

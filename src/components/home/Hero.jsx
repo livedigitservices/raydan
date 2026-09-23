@@ -15,8 +15,8 @@ export default function Hero({ onOpenConsultation }) {
   const [videoLoaded, setVideoLoaded] = useState(false);
   const [videoFailed, setVideoFailed] = useState(false);
 
-  // Cloudinary fallback architectural video & photography poster
-  const heroPoster = "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=85";
+  // Local authentic architectural hero poster
+  const heroPoster = "/projects/the-courtyard-house.webp";
   const heroVideo = "https://assets.mixkit.co/videos/preview/mixkit-modern-apartment-interior-design-39908-large.mp4";
 
   useEffect(() => {

@@ -204,6 +204,18 @@ export default function ProjectDetails({ onOpenConsultation }) {
                   alt={`${project.title} gallery ${idx + 1}`}
                   className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110"
                 />
+
+                {/* Subtle Image Tag */}
+                {img.includes('/originals/') ? (
+                  <div className="absolute top-3 left-3 bg-black/75 backdrop-blur-sm text-white/90 text-[9px] font-mono tracking-widest uppercase px-2.5 py-1 border border-white/20">
+                    AUTHENTIC SITE RECORD
+                  </div>
+                ) : idx === 0 ? (
+                  <div className="absolute top-3 left-3 bg-[#1C1C1E]/80 backdrop-blur-sm text-white text-[9px] font-mono tracking-widest uppercase px-2.5 py-1 border-l-2 border-[#ED1C24]">
+                    ARCHITECTURAL ELEVATION
+                  </div>
+                ) : null}
+
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                   <div className="w-12 h-12 bg-[#ED1C24] text-white rounded-full flex items-center justify-center shadow-xl">
                     <Maximize2 className="w-5 h-5" />

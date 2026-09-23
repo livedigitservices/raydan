@@ -93,8 +93,8 @@ export default function About({ onOpenConsultation }) {
             <div className="lg:col-span-6">
               <div className="relative aspect-[4/3] sm:aspect-[16/10] overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
-                  alt="Architectural detailing and construction"
+                  src="/projects/the-courtyard-house.webp"
+                  alt="RAYDAN architectural detailing and construction"
                   className="w-full h-full object-cover"
                 />
               </div>

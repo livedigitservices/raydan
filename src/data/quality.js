@@ -10,7 +10,7 @@ export const qualityStages = [
       "Reinforcement rebar ultrasonic cross-check & cover block spacing",
       "Digital batch-mix concrete cube testing at 7, 14, and 28 days"
     ],
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186156a?auto=format&fit=crop&w=1000&q=80",
+    image: "/services/home-construction.webp",
     standard: "IS 456 & IS 1893 Seismic Zone Compliance"
   },
   {

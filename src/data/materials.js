@@ -40,7 +40,7 @@ export const materialsData = [
     name: "Architectural Metals",
     category: "Screens & Hardware",
     description: "Marine-grade 316 stainless steel, electro-plated titanium zinc, patinated bronze, and thermo-lacquered architectural aluminum framing.",
-    image: "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
     specification: "Grade 316 Stainless & Weathering Bronze",
     features: ["Corrosion-proof in saline conditions", "Laser-cut custom perforated screens", "Anodized charcoal finish"]
   },

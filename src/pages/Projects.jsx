@@ -13,7 +13,8 @@ export default function Projects() {
       const matchesCategory =
         activeFilter === 'ALL' ||
         p.filterCategory === activeFilter ||
-        p.category === activeFilter;
+        p.category === activeFilter ||
+        (p.tags && p.tags.includes(activeFilter));
 
       const matchesSearch =
         p.title.toLowerCase().includes(searchQuery.toLowerCase()) ||

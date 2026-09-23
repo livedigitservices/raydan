@@ -7,9 +7,9 @@ export default function FinalCTA({ onOpenConsultation }) {
       {/* Background Architectural Luxury Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=2000&q=85"
-          alt="Luxury architectural residence at dusk"
-          className="w-full h-full object-cover object-center opacity-35 scale-105"
+          src="/projects/the-stone-timber-villa.webp"
+          alt="RAYDAN architectural residence at twilight"
+          className="w-full h-full object-cover object-center opacity-30 scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#1C1C1E] via-[#1C1C1E]/70 to-[#1C1C1E]/90" />
         <div className="absolute inset-0 bg-grid-pattern opacity-10 pointer-events-none" />

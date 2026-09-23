@@ -11,7 +11,10 @@ export default function FeaturedProjects() {
   const filteredProjects = useMemo(() => {
     if (activeFilter === 'ALL') return projectsData;
     return projectsData.filter(
-      (p) => p.filterCategory === activeFilter || p.category === activeFilter
+      (p) =>
+        p.filterCategory === activeFilter ||
+        p.category === activeFilter ||
+        (p.tags && p.tags.includes(activeFilter))
     );
   }, [activeFilter]);
 
