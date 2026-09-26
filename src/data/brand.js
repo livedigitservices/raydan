@@ -11,11 +11,13 @@ export const brandData = {
   contact: {
     phone: "+91 95421 21111 ",
     phoneDisplay: "+91 95421 21111 ",
+    phone2: "+91 9441028053 ",
+    phoneDisplay2: "+91 9441028053 ",
     email: "raydanconstructions@gmail.com",
     consultationEmail: "raydanconstructions@gmail.com",
     address: "Plot No- 76 Citizens colony Indresham Patancheru 502319 Hyderabad Telangana",
     workingHours: "Monday – Saturday: 9:30 AM – 6:30 PM",
-    citiesServed: ["Hyderabad", "Bengaluru", "Pune", "Chennai"]
+    citiesServed: ["Hyderabad", "Bengaluru", "Chennai"]
   },
   socials: [
     { name: "Instagram", url: "https://instagram.com", handle: "@raydanconstructions" },

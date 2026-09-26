@@ -145,7 +145,13 @@ export default function Contact() {
                     </span>
                     <a href={`tel:${brandData.contact.phone}`} className="text-xs sm:text-sm text-[#58585A] hover:text-[#ED1C24] font-medium transition-colors">
                       {brandData.contact.phone}
+                    </a> <br />
+                    <a href={`tel:${brandData.contact.phone2}`} className="text-xs sm:text-sm text-[#58585A] hover:text-[#ED1C24] font-medium transition-colors">
+                      {brandData.contact.phone2}
                     </a>
+                    {/* <a href={`tel:919441028053`} className="text-xs sm:text-sm text-[#58585A] hover:text-[#ED1C24] font-medium transition-colors">
+                       +91 9441028053
+                    </a> */}
                   </div>
                 </div>
 
